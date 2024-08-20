@@ -92,6 +92,8 @@ int consulta(void)
     {
         printf("Não foi possível abrir o arquivo, não localizado.\n");
         getchar();
+        return 1;
+        
     }
     
     
